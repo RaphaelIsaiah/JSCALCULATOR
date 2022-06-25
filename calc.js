@@ -14,8 +14,8 @@ function modulus(a, b){
     return a % b;
 }
 function Calculate(){
-    var a = parseInt(prompt("Please enter first number"));
-    var b = parseInt(prompt("Please enter second number"));
+    var a = parseInt(prompt("Please enter a number"));
+    var b = parseInt(prompt("Please enter another number"));
     var operator = prompt("Choose operator from the list +, -, *, /, %");
     var result;
     switch (operator) {

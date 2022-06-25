@@ -14,9 +14,9 @@ function modulus(a, b){
     return a % b;
 }
 function Calculate(){
-    var a = parseInt(prompt("Enter first number"));
-    var b = parseInt(prompt("Enter second number"));
-    var operator = prompt("Enter operator from the list +, -, *, /, %");
+    var a = parseInt(prompt("Please enter first number"));
+    var b = parseInt(prompt("Please enter second number"));
+    var operator = prompt("Choose operator from the list +, -, *, /, %");
     var result;
     switch (operator) {
       case "+":
@@ -38,6 +38,7 @@ function Calculate(){
         alert("Invalid operator");
         break;
     }
-alert("The answer is " + " " + result);
+alert("The answer is" + " " + result);
+alert("Thank you for participating");
 }
 Calculate();
